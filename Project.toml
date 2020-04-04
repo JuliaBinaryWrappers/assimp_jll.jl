@@ -1,0 +1,11 @@
+name = "assimp_jll"
+uuid = "54ae6823-98c6-5a7c-8365-5a43b909f91f"
+version = "5.0.1+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
