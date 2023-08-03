@@ -3,12 +3,12 @@ export libassimp
 
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("assimp")
-JLLWrappers.@declare_library_product(libassimp, "libassimp.dll")
+JLLWrappers.@declare_library_product(libassimp, "libassimp-5.dll")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll)
     JLLWrappers.@init_library_product(
         libassimp,
-        "bin\\libassimp.dll",
+        "bin\\libassimp-5.dll",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
