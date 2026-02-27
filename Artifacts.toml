@@ -1,11 +1,29 @@
 [[assimp]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6cd640f051d8a2f1bff74644a91a71deb461675a"
+os = "windows"
+
+    [[assimp.download]]
+    sha256 = "bfc6dcf8563b00c44498840c0ec02ee95f3f2fef5dce2213cec09230e0c45639"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.i686-w64-mingw32-cxx11.tar.gz"
+[[assimp]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6c733f74b81080904ac1ad94fe57412fd88d5df8"
+os = "windows"
+
+    [[assimp.download]]
+    sha256 = "d780b7109a44064f5c2420a73a8ee39508da52c56d741e03ee1b4f70fb933f35"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.x86_64-w64-mingw32-cxx11.tar.gz"
+[[assimp]]
 arch = "aarch64"
 git-tree-sha1 = "6cc218b2013ce6f24a87dce4f62ba79d6c66edce"
 os = "macos"
 
     [[assimp.download]]
     sha256 = "94c99f0ae5abe30f33ac29bdee8ed98d9535c1508787e955b59e8173afeb41b7"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.aarch64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.aarch64-apple-darwin.tar.gz"
 [[assimp]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -15,7 +33,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "15d3956417e268d08587df6feb27f92720218fd1e488e471d5ff723a1a76da5b"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.aarch64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.aarch64-linux-gnu-cxx11.tar.gz"
 [[assimp]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
@@ -25,7 +43,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "b265857b3513cda1879f72cb42daa2354bec4073ed69e937caa30e5db303315c"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.aarch64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.aarch64-linux-musl-cxx11.tar.gz"
 [[assimp]]
 arch = "aarch64"
 git-tree-sha1 = "58e06defa8f9b603b16c794307d7b2b3ec6cfafb"
@@ -33,7 +51,7 @@ os = "freebsd"
 
     [[assimp.download]]
     sha256 = "a84a877cd5a0e6d8404b31ed6479a882d7a6ce0f1adc46934eae661ce93bd63d"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.aarch64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.aarch64-unknown-freebsd.tar.gz"
 [[assimp]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -44,7 +62,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "af9ba58ccfc783984b5619d8cf2bb8306baef1ef3576d4514764d719acc38581"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[assimp]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -55,7 +73,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "13ef10d6814c569607ccbf653f77a8f82468918b98960d0ae84510f7625730c0"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.armv6l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[assimp]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -66,7 +84,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "8f0db48d9394b4416c350e552ff5d8a9301fc3e4393b143e5407e54f1f202c80"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[assimp]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -77,7 +95,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "c837cfc1476a9da4b7edc0f78bb205083695b1058f0159ff7a3b0c8023a42a66"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.armv7l-linux-musleabihf-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[assimp]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -87,7 +105,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "9288cded6786c1aebf108959b12b8fd87efa94f2cdc8d0611a5675111b632168"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.i686-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.i686-linux-gnu-cxx11.tar.gz"
 [[assimp]]
 arch = "i686"
 cxxstring_abi = "cxx11"
@@ -97,7 +115,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "e382b44aee09a3e0d8751cd7cfdf50a911cb72219f6e42dd77a5758371aaf1ec"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.i686-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.i686-linux-musl-cxx11.tar.gz"
 [[assimp]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
@@ -107,7 +125,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "273118e1d0208387163368d7d0f953bdeea2a2d4d647788c147dd1fc8dc6ca9e"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.powerpc64le-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[assimp]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
@@ -117,7 +135,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "8a0d445d7f4aa58bca206973e2b224285b57631bdcdb9eb32c1101d62e78fc86"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.riscv64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.riscv64-linux-gnu-cxx11.tar.gz"
 [[assimp]]
 arch = "x86_64"
 git-tree-sha1 = "e1d920747eade3b0ebdae3653b2e5e1256b2dfed"
@@ -125,7 +143,7 @@ os = "macos"
 
     [[assimp.download]]
     sha256 = "5c72f60de062be4dd03aec4cea6e8d5ca4cd97d6cceca7c244ad7cb987e596f0"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.x86_64-apple-darwin.tar.gz"
 [[assimp]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -135,7 +153,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "549f76a61fbcf4030534427462c0f4e79ab724d39453ba78ee8ab3299cdb301a"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.x86_64-linux-gnu-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.x86_64-linux-gnu-cxx11.tar.gz"
 [[assimp]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
@@ -145,7 +163,7 @@ os = "linux"
 
     [[assimp.download]]
     sha256 = "e59da85cbe80a64eafd96a9435d190d51fc248044fbeb0bb32524df5ff76949a"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.x86_64-linux-musl-cxx11.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.x86_64-linux-musl-cxx11.tar.gz"
 [[assimp]]
 arch = "x86_64"
 git-tree-sha1 = "9d7c5ff2466cd4c1f2c54fb64c068c90599e9feb"
@@ -153,4 +171,4 @@ os = "freebsd"
 
     [[assimp.download]]
     sha256 = "54a0c605abb6684015ab8db14a57e7aac97748adb1b36fdc34ec6069297ed81d"
-    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+1/assimp.v6.0.4.x86_64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/assimp_jll.jl/releases/download/assimp-v6.0.4+2/assimp.v6.0.4.x86_64-unknown-freebsd.tar.gz"
